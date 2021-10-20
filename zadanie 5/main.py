@@ -4,7 +4,7 @@ def funtion(i: int, lista: list):
         if i in lista:
             print("Element jest w liście")
             break
-        else:
+        if i not in lista:
             print("Elementu nie ma w liście")
             break
 
